@@ -8,7 +8,7 @@ Homepage: https://localhost
 Vcs-Git: https://localhost
 Vcs-Browser: https://localhost
 
-Package: test-service
+Package: debtest
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: test service

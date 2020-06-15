@@ -12,5 +12,6 @@ debian/.debhelper
 debian/debhelper-build-stamp
 
 # sertain service
-debian/test-service.substvars
-debian/test-service/
+debian/debtest.substvars
+debian/debtest/
+debian/*.debhelper
