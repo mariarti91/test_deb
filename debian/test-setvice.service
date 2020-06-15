@@ -3,7 +3,7 @@ Description=Simple Test Serivce.
 
 [Service]
 Type=simple
-ExecStart=/usr/deb_test
+ExecStart=/usr/deb_tests
 ExecStop=/bin/kill -SIGINT $MAINPID
 TimeoutStopSec=10
 Restart=on-failure
