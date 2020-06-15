@@ -1,2 +1,15 @@
+# IDE
 .idea
 cmake-build-*
+
+# package builder
+build
+obj-x86_64-linux-gnu
+
+# debhelper
+debian/.debhelper
+debian/debhelper-build-stamp
+
+# sertain service
+debian/test-service.substvars
+debian/test-service/

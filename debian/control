@@ -1,0 +1,14 @@
+Source: deb-test
+Section: embedded
+Priority: optional
+Build-Depends: debhelper (>=11~), cmake (>=3.10)
+Standards-Version: 4.2.1
+Homepage: https://localhost
+Vcs-Git: https://localhost
+Vcs-Browser: https://localhost
+
+Package: test-service
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: test service
+ this is a simplest test service

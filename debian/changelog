@@ -1,0 +1,10 @@
+deb-test (0.1.0) unstable; urgency=medium
+
+  [ mariarti ]
+  * 
+
+  [ Dmitriy Nikiforov ]
+  * initial commit
+  * added simplest project
+
+ -- mariarti <mariarti@MoZzG>  Mon, 15 Jun 2020 18:04:41 +0700

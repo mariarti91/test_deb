@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+export PKGVERSION=$(shell dpkg-parsechangelog \
+                        | awk '/^Version:/ {print $$2}')
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mkdir -p build
+	cd build && cmake ../ -DCMAKE_BUILD_TYPE=Release
+	cd build && make
+
+override_dh_auto_clean:
+	rm build -rf
+	dh_auto_clean
+

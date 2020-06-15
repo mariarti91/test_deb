@@ -1,0 +1,13 @@
+[Unit]
+Description=Simple Test Serivce.
+
+[Service]
+Type=simple
+ExecStart=/usr/deb_test
+ExecStop=/bin/kill -SIGINT $MAINPID
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
