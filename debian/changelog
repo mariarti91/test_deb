@@ -1,3 +1,10 @@
+deb-test (0.1.2) unstable; urgency=medium
+
+  [ Dmitriy Nikiforov ]
+  * added build.sh script
+
+ -- mariarti <mariarti@MoZzG>  Mon, 15 Jun 2020 18:22:13 +0700
+
 deb-test (0.1.1) unstable; urgency=medium
 
   [ Dmitriy Nikiforov ]
